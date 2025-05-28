@@ -102,16 +102,6 @@ def say_hello(name) -> None:
 say_hello('Anthony')
 # >>> 'say_hello took 5 seconds'
 
-
-# Python things:
-# decorators
-# context managers
-# generators
-
-# for Nolan TODO:
-# multiprocessing / multithreading / asyncio
-# file IO
-
 class TimeBlock:
     def __init__(self, msg: str):
         self.msg = msg
